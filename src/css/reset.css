@@ -1,17 +1,30 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
 
+:root {
+    --fonte: #F1F1F1;
+    --fundo: #0B0B0B;
+    --infos: #AAAAAA;
 }
 
 body {
-    font-family: "Roboto", sans-serif ;
-    background-color:#18171A;
-    color: #F1F1F1;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--fundo);
+    color: var(--fonte);
+    text-decoration: none;
 }
 
 a {
     text-decoration: none;
-    color: inherit;
 }
 
+a h1 {
+color: var(--fonte);
+}
+
+a p {
+    color: var(--infos);
+}
