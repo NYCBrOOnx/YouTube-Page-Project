@@ -1,0 +1,42 @@
+.container {
+    background-color: #4682b4;
+    margin: 30px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, 50%);
+}
+
+.principal {
+    background-color: blueviolet;
+    grid-area: 1/1/3/1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.gta-vi {
+    height: 100%;
+    width: 100%;
+}
+
+.gta-vi iframe {
+    height: 100%;
+    width: 100%;
+}
+
+.jesko {
+    background-color: orange;
+}
+
+.formula-1 {
+    background-color: lightslategrey;
+}
+
+.reddead {
+    background-color: red;
+}
+
+.propaganda {
+    background-color: black;
+}

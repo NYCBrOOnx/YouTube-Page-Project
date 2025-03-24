@@ -17,14 +17,29 @@ body {
     text-decoration: none;
 }
 
+.infos h1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.infos p {
+
+    font-size: 14px;
+    font-weight: 400;
+}
+
 a {
     text-decoration: none;
 }
 
 a h1 {
-color: var(--fonte);
+    color: var(--fonte);
+    font-size: 14px;
+    font-weight: 500;
 }
 
 a p {
     color: var(--infos);
+    font-size: 12px;
+    font-weight: 400;
 }
