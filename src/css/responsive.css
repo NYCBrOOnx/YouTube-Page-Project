@@ -1,0 +1,23 @@
+@media (max-width: 1200px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+
+    .propaganda {
+        display: flex;
+        justify-content: center ;
+        align-items: center;
+    }
+
+    .propaganda img {
+        width: 80%;
+        height: 200px;
+    }
+
+    .recomendados {
+        gap: 50px;
+    }
+}
